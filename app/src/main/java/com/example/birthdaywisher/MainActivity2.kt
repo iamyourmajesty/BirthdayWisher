@@ -10,14 +10,10 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-        val player: MediaPlayer
-        player=MediaPlayer.create(this,R.raw.hbirthday)
-        play.setOnClickListener{
-            player.start()
 
-        }
         val message = intent.getStringExtra(EXTRA_MESSAGE)
         gotit.text=message
+
 
     }
 }
