@@ -13,6 +13,7 @@ The following **required** functionality is completed:
 * [x] User can enter his/her name and click on create birthday card button.
 * [x] The user sees the birthday card with an audio.
 * [x] The user sees audio and card with provided name.
+
 The following **extensions** are implemented:
 
 * [x] Custom colors selected
